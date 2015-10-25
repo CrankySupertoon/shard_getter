@@ -24,99 +24,79 @@ moasic_marsh=
 stencil_steppe=511000001
 
 date
-if [ $current_shard == $stencil_steppe ]
+if [ $current_shard = $stencil_steppe ]
 then echo "Stencil Steppe" > district.txt
 cat district.txt
-fi
 
-if [ $current_shard == $colorful_canvas ]
+elif [ $current_shard == $colorful_canvas ]
 then echo "Colorful Canvas" > district.txt
 cat district.txt
-fi
 
-if [ $current_shard == $paintbrush_field ]
+elif [ $current_shard == $paintbrush_field ]
 then echo "Paintbrush Field" > district.txt
 cat district.txt
-fi
 
-if [ $current_shard == $vibrant_valley ]
+elif [ $current_shard == $vibrant_valley ]
 then echo "Vibrant Valley" > district.txt
 cat district.txt
-fi
 
-if [ $current_shard == $renaissance_river ]
+elif [ $current_shard == $renaissance_river ]
 then echo "Renaissance River" > district.txt
 cat district.txt
-fi
 
-if [ $current_shard == $bliss_bayou ]
+elif [ $current_shard == $bliss_bayou ]
 then echo "Bliss Bayou" > district.txt
 cat district.txt
-fi
-if [ $current_shard == $graphite_gulch ]
+
+elif [ $current_shard == $graphite_gulch ]
 then echo "Graphite Gulch" > district.txt
 cat district.txt
-fi
 
-if [ $current_shard == $pastel_plains ]
+elif [ $current_shard == $pastel_plains ]
 then echo "Pastel Plains" > district.txt
 cat district.txt
-fi
 
-if [ $current_shard == $acrylic_acres ]
+elif [ $current_shard == $acrylic_acres ]
 then echo "Acrylic Acres" > district.txt
 cat district.txt
-fi
 
-if [ $current_shard == $watercolor_woods ]
+elif [ $current_shard == $watercolor_woods ]
 then echo "Watercolor Woods" > district.txt
 cat district.txt
-fi
 
-if [ $current_shard == $eraser_oasis ]
+elif [ $current_shard == $eraser_oasis ]
 then echo "Eraser Oasis" > district.txt
 cat district.txt
-fi
 
-
-
-if [ $current_shard == $pigment_point ]
+elif [ $current_shard == $pigment_point ]
 then echo "Pigment Point" > district.txt
 cat district.txt
-fi
 
-if [ $current_shard == $brush_bay ]
+elif [ $current_shard == $brush_bay ]
 then echo "Brush Bay" > district.txt
 cat district.txt
-fi
 
-if [ $current_shard == $avant_gardens ]
+elif [ $current_shard == $avant_gardens ]
 then echo "Avant Gardens" > district.txt
 cat district.txt
-fi
 
-if [ $current_shard == $pianissimo_plateau ]
+elif [ $current_shard == $pianissimo_plateau ]
 then echo "Pianissimo Plateau" > district.txt
 cat district.txt
-fi
 
-if [ $current_shard == $baroque_bluffs ]
+elif [ $current_shard == $baroque_bluffs ]
 then echo "Baroque Bluffs" > district.txt
 cat district.txt
-fi
 
-if [ $current_shard == $calligraphy_cliff ]
+elif [ $current_shard == $calligraphy_cliff ]
 then echo "Calligraphy Cliff" > district.txt
 cat district.txt
-fi
 
-if [ $current_shard == $fortissimo_forest ]
+elif [ $current_shard == $fortissimo_forest ]
 then echo "Fortissimo Forest" > district.txt
 cat district.txt
-fi
 
-if [ $current_shard == $crayon_canyon ]
-then echo "Crayon Canyon" > district.txt
+else echo "Unable to identify district's name :(" > district.txt
 cat district.txt
 fi
 
