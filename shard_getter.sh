@@ -2,26 +2,26 @@
 while true
 do
 current_shard="$(cat * | grep "Entering shard" | tail -c 10)"
-colorful_canvas="$(cat colorful_canvas)"
-paintbrush_field="$(cat paintbrush_field)"
-vibrant_valley="$(cat vibrant_valley)"
-renaissance_river="$(cat renaissance_river)"
-bliss_bayou="$(cat bliss_bayou)"
-graphite_gulch="$(cat graphite_gulch)"
-pastel_plains="$(cat pastel_plains)"
-acrylic_acres="$(cat acrylic_acres)"
-watercolor_woods="$(cat watercolor_woods)"
-pigment_point="$(cat pigment_point)"
-eraser_oasis="$(cat eraser_oasis)"
-brush_bay="$(cat brush_bay)"
-avant_gardens="$(cat avant_gardens)"
-pianissimo_plateau="$(cat pianissimo_plateau)"
-baroque_bluffs="$(cat baroque_bluffs)"
-calligraphy_cliff="$(cat calligraphy_cliff)"
-fortissimo_forest="$(cat fortissimo_forest)"
-crayon_canyon="$(cat crayon_canyon)"
-moasic_marsh="$(cat mosaic_marsh)"
-stencil_steppe="$(cat stencil_steppe)"
+colorful_canvas=500000001
+paintbrush_field=501000001
+vibrant_valley=502000001
+renaissance_river=503000001
+bliss_bayou=504000001
+graphite_gulch=505000001
+pastel_plains=506000001
+acrylic_acres=507000001
+watercolor_woods=508000001
+pigment_point=509000001
+eraser_oasis=510000001
+brush_bay=512000001
+avant_gardens=513000001
+pianissimo_plateau=514000001
+baroque_bluffs=515000001
+calligraphy_cliff=516000001
+fortissimo_forest=517000001
+crayon_canyon=
+moasic_marsh=
+stencil_steppe=511000001
 
 date
 if [ $current_shard == $stencil_steppe ]
