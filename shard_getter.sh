@@ -2,17 +2,17 @@
 while true
 do
 current_shard="$(cat * | grep "Entering shard" | tail -c 10)"
-colorful_canvas=500000001
-paintbrush_field=501000001
-vibrant_valley=502000001
-renaissance_river=503000001
-bliss_bayou=504000001
-graphite_gulch=505000001
-pastel_plains=506000001
-acrylic_acres=507000001
-watercolor_woods=508000001
-pigment_point=509000001
-eraser_oasis=510000001
+gulp_gulch=500000001
+splashport=501000001
+fizzlefield=502000001
+whoosh_rapids=503000001
+blam_canyon=504000001
+hiccup_hills=505000001
+splat_summit=506000001
+thwackville=507000001
+zoink_falls=508000001
+kaboom_cliffs=509000001
+bounceboro=510000001
 brush_bay=512000001
 avant_gardens=513000001
 pianissimo_plateau=514000001
@@ -21,55 +21,55 @@ calligraphy_cliff=516000001
 fortissimo_forest=517000001
 crayon_canyon=
 moasic_marsh=
-stencil_steppe=511000001
+boingbury=511000001
 
 date
-if [ $current_shard = $stencil_steppe ]
-then echo "Stencil Steppe" > district.txt
+if [ $current_shard == $boingbury ]
+then echo "Boingbury" > district.txt
 cat district.txt
 
-elif [ $current_shard == $colorful_canvas ]
-then echo "Colorful Canvas" > district.txt
+elif [ $current_shard == $gulp_gulch ]
+then echo "Gulp Gulch" > district.txt
 cat district.txt
 
-elif [ $current_shard == $paintbrush_field ]
-then echo "Paintbrush Field" > district.txt
+elif [ $current_shard == $splashport ]
+then echo "Splashport" > district.txt
 cat district.txt
 
-elif [ $current_shard == $vibrant_valley ]
-then echo "Vibrant Valley" > district.txt
+elif [ $current_shard == $fizzlefield ]
+then echo "Fizzlefield" > district.txt
 cat district.txt
 
-elif [ $current_shard == $renaissance_river ]
-then echo "Renaissance River" > district.txt
+elif [ $current_shard == $whoosh_rapids ]
+then echo "Whoosh Rapids" > district.txt
 cat district.txt
 
-elif [ $current_shard == $bliss_bayou ]
-then echo "Bliss Bayou" > district.txt
+elif [ $current_shard == $blam_canyon ]
+then echo "Blam Canyon" > district.txt
 cat district.txt
 
-elif [ $current_shard == $graphite_gulch ]
-then echo "Graphite Gulch" > district.txt
+elif [ $current_shard == $hiccup_hills ]
+then echo "Hiccup Hills" > district.txt
 cat district.txt
 
-elif [ $current_shard == $pastel_plains ]
-then echo "Pastel Plains" > district.txt
+elif [ $current_shard == $splat_summit ]
+then echo "Splat Summit" > district.txt
 cat district.txt
 
-elif [ $current_shard == $acrylic_acres ]
-then echo "Acrylic Acres" > district.txt
+elif [ $current_shard == $thwackville ]
+then echo "Thwackville" > district.txt
 cat district.txt
 
-elif [ $current_shard == $watercolor_woods ]
-then echo "Watercolor Woods" > district.txt
+elif [ $current_shard == $zoink_falls ]
+then echo "Zoink Falls" > district.txt
 cat district.txt
 
-elif [ $current_shard == $eraser_oasis ]
-then echo "Eraser Oasis" > district.txt
+elif [ $current_shard == $bounceboro ]
+then echo "Bounceboro" > district.txt
 cat district.txt
 
-elif [ $current_shard == $pigment_point ]
-then echo "Pigment Point" > district.txt
+elif [ $current_shard == $kaboom_cliffs ]
+then echo "Kaboom Cliffs" > district.txt
 cat district.txt
 
 elif [ $current_shard == $brush_bay ]
@@ -103,3 +103,4 @@ fi
 echo "$current_shard"
 sleep 5
 done
+
